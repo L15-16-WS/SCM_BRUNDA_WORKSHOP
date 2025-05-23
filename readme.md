@@ -31,7 +31,7 @@ CSS3 – For styling and layout
 
 Font Awesome – For icons and visual appeal
 
-
+Javascript (Optional)
 
 ---
 
