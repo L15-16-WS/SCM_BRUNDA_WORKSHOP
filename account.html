@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Account</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .account-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .profile-section {
+      text-align: center;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20px;
+    }
+    .profile-pic {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #ccc;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .username {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .email {
+      color: #888;
+      font-size: 14px;
+    }
+    .account-options {
+      margin-top: 20px;
+    }
+    .option {
+      padding: 15px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .option:hover {
+      background: #f0f0f0;
+    }
+    .option span {
+      font-size: 16px;
+    }
+    .logout {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="account-container">
+    <div class="profile-section">
+      <div class="profile-pic"></div>
+      <div class="username">John Doe</div>
+      <div class="email">johndoe@example.com</div>
+    </div>
+
+    <div class="account-options">
+      <div class="option"><span>My Orders</span> ➤</div>
+      <div class="option"><span>Wishlist</span> ➤</div>
+      <div class="option"><span>Addresses</span> ➤</div>
+      <div class="option"><span>Payment Methods</span> ➤</div>
+      <div class="option"><span>Account Settings</span> ➤</div>
+      <div class="option logout"><span>Log Out</span> ➤</div>
+    </div>
+  </div>
+
+</body>
+</html>
