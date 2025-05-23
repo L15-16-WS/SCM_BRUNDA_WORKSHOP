@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Previous styles remain the same */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background-color: #ffffff;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* Add new hero section */
+        .hero-section {
+            margin-top: 100px;
+            height: 200px;
+            background-image: url('https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        /* Rest of previous styles remain the same */
+        /* ... */
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h2>ShopNow</h2>
+            <i class="fas fa-camera camera-icon"></i>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search products...">
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>New Season Collection</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Categories -->
+        <h3>Popular Categories</h3>
+        <div class="categories">
+            <div class="category-card">
+                <img src="https://picsum.photos/100/100?random=1" alt="Fashion" style="width: 60px; height: 60px; border-radius: 50%;">
+                <p>Fashion</p>
+            </div>
+            <div class="category-card">
+                <img src="https://picsum.photos/100/100?random=2" alt="Electronics" style="width: 60px; height: 60px; border-radius: 50%;">
+                <p>Electronics</p>
+            </div>
+            <div class="category-card">
+                <img src="https://picsum.photos/100/100?random=3" alt="Home" style="width: 60px; height: 60px; border-radius: 50%;">
+                <p>Home</p>
+            </div>
+            <div class="category-card">
+                <img src="https://picsum.photos/100/100?random=4" alt="Beauty" style="width: 60px; height: 60px; border-radius: 50%;">
+                <p>Beauty</p>
+            </div>
+        </div>
+
+        <!-- Trending Products -->
+        <h3>Trending Products</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" class="product-image" alt="Smart Watch">
+                <h4>Smart Watch</h4>
+                <p>$299.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" class="product-image" alt="Headphones">
+                <h4>Wireless Headphones</h4>
+                <p>$199.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" class="product-image" alt="Smart Watch">
+                <h4>Designer Watch</h4>
+                <p>$499.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" class="product-image" alt="Shoes">
+                <h4>Running Shoes</h4>
+                <p>$89.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Featured Brands Section -->
+        <h3>Featured Brands</h3>
+        <div class="brands-grid">
+            <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png" alt="Apple" style="width: 80px; height: 40px; object-fit: contain;">
+            <img src="https://www.freepnglogos.com/uploads/samsung-logo-text-png-1.png" alt="Samsung" style="width: 100px; height: 40px; object-fit: contain;">
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo.png" alt="Nike" style="width: 80px; height: 40px; object-fit: contain;">
+        </div>
+    </div>
+
+    <!-- Bottom Navigation remains same -->
+</body>
+</html>
